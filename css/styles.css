@@ -1,0 +1,33 @@
+div{
+    display: flex;
+    height: 40px;
+    max-width: 1000px;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    display: flex; 
+    text-decoration: none;
+    color: gray;
+    margin: 10px; 
+}
+
+p{
+    font-size: 30px;
+    font-weight: 600;
+    margin: auto auto auto 20px;
+}
+
+.login-box{
+    margin-left: auto;
+    padding: 6px 15px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.login-box:hover{
+    color: cadetblue;
+    border: 1px solid cadetblue
+}
